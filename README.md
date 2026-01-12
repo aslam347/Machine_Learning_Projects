@@ -28,7 +28,7 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
 - Learned how polynomial features improve regression performance  
 - Key topics: polynomial features, model comparison
 
-  ### 6) Logistic Regression (Precision, Recall, Accuracy)
+### 6) Logistic Regression (Precision, Recall, Accuracy)
 - Built a Logistic Regression model for classification
 - Evaluated performance using Precision, Recall, Accuracy
 - Dataset: `social_network_ads.csv`
