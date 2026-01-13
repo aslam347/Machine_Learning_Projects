@@ -33,6 +33,17 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
 - Evaluated performance using Precision, Recall, Accuracy
 - Dataset: `social_network_ads.csv`
 
+### 7) Multiclass Classification using Logistic Regression (Dry Bean Dataset)
+- Built a Logistic Regression model for multiclass classification  
+- Predicted bean class based on shape features  
+- Dataset: `dry_bean_dataset.xlsx`
+- Key topics:
+  - Multiclass classification
+  - Feature scaling (StandardScaler)
+  - Train-test split with stratification
+  - Evaluation: Accuracy, Precision, Recall, F1-score
+  - Confusion Matrix
+
 ---
 
 ## 🛠 Tech Stack
