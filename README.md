@@ -44,6 +44,29 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
   - Evaluation: Accuracy, Precision, Recall, F1-score
   - Confusion Matrix
 
+### 8) SVM (Gamma, Regularization & Scaling) – Raisin Dataset
+- Built a Support Vector Machine (SVM) model using Raisin dataset  
+- Dataset: `Raisin_Dataset.xlsx`
+- Key topics:
+  - Support Vector Machine (SVM)
+  - Feature scaling using StandardScaler
+  - Understanding Gamma and C (Regularization)
+  - Model evaluation (Accuracy, Classification Report, Confusion Matrix)
+  - Pipeline implementation (Scaling + SVM)
+
+### 9) Weather Type Classification using SVM (Kaggle Dataset)
+- Predicted weather type (Rainy / Sunny / Cloudy / Snowy) using weather condition features  
+- Dataset: `weather_classification_data.csv` (Kaggle)
+- Key topics:
+  - Data preprocessing (One-Hot Encoding + Scaling)
+  - Exploratory Data Analysis (EDA): Pie chart, Histogram, Box plot
+  - SVM with different kernels (Linear, RBF)
+  - Hyperparameter tuning (C, gamma)
+  - Pipeline usage (StandardScaler + SVM)
+  - Evaluation: Accuracy, Classification Report, Confusion Matrix
+- Dataset credits: Nikhil Narayan (Kaggle)    
+
+
 ---
 
 ## 🛠 Tech Stack
