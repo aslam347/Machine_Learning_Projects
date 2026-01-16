@@ -66,6 +66,29 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
   - Evaluation: Accuracy, Classification Report, Confusion Matrix
 - Dataset credits: Nikhil Narayan (Kaggle)    
 
+### 10) SMS Classification using Naive Bayes
+- Built an SMS Spam Detection model (Spam / Ham)
+- Algorithm: Naive Bayes
+- Key topics:
+  - Text preprocessing
+  - Feature extraction using Bag of Words / TF-IDF
+  - Train-test split
+  - Naive Bayes model training
+  - Evaluation: Accuracy, Precision, Recall, F1-score
+  - Confusion Matrix + Classification Report
+
+### 11) Titanic Survival Prediction using Gaussian Naive Bayes
+- Built a binary classification model to predict Titanic passenger survival
+- Dataset: `titanic.csv`
+- Algorithm: Gaussian Naive Bayes
+- Key topics:
+  - Data Cleaning & Preprocessing
+  - Handling missing values (median imputation)
+  - One-hot encoding (sex)
+  - Feature scaling using StandardScaler (fare)
+  - Train-test split
+  - Evaluation: Accuracy, Precision, Recall, F1-score
+  - Confusion Matrix + Classification Report
 
 ---
 
