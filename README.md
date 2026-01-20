@@ -92,17 +92,88 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
 
 ---
 
+### 12) Decision Tree (Fundamentals)
+- Built a Decision Tree model for classification
+- Key topics:
+  - Gini / Entropy
+  - Information Gain
+  - Overfitting control (max_depth, min_samples_split)
+  - Confusion Matrix + Classification Report
+- Folder: [View](./12_Decision_Tree)
+
+---
+
+### 13) Pet Adoption Prediction using Decision Tree
+- Built a Decision Tree model to predict pet adoption outcome
+- Dataset: Pet adoption dataset
+- Key topics:
+  - Feature preprocessing (encoding)
+  - Train-test split with stratification
+  - Decision Tree classifier
+  - Evaluation: Accuracy, Precision, Recall, F1-score
+  - Confusion Matrix
+- Folder: [View](./13_Pet_adoption_Decision_Tree)
+
+---
+
+### 14) Customer Churn Prediction (Class Imbalance)
+- Built churn prediction model on imbalanced dataset
+- Dataset: Customer churn dataset
+- Techniques:
+  - Undersampling
+  - Oversampling (SMOTE)
+  - SMOTE-Tomek (Best hybrid)
+- Key topics:
+  - Precision / Recall / F1-score (focus on Recall)
+  - Confusion Matrix
+  - Threshold tuning
+- Folder: [View](./14_ChurnPredection_ClassImbalance)
+
+---
+
+### 15) Breast Cancer Prediction
+- Built ML model to predict breast cancer (Benign/Malignant)
+- Key topics:
+  - Data cleaning + preprocessing
+  - Model training + evaluation
+  - Confusion matrix + classification report
+  - Model comparison
+- Folder: [View](./15_Breast_Cancer)
+
+---
+
+### 16) Cancer Prediction using Random Forest (Ensemble Learning)
+- Compared Decision Tree vs Random Forest for cancer prediction
+- Dataset: `cancer_data.csv` (Kaggle)
+- Key topics:
+  - Bagging concept
+  - Random Forest training (random rows + random features)
+  - Feature importance
+  - Hyperparameter tuning (`n_estimators`, `max_depth`, etc.)
+  - Handling imbalance using undersampling (optional)
+- Folder: [View](./16_Cancer_Prediction_Random_Forest)
+
+
+
+
+---
+
 
 
 
 ## 📌 Portfolio Projects (Quick View)
 
-| Project | Type | Algorithm |  Link |
-|--------|------|-----------|------------|
+|## 📌 Portfolio Projects (Quick View)
+
+| Project | Type | Algorithm | Link |
+|--------|------|-----------|------|
 | Titanic Survival Prediction | Classification | Gaussian Naive Bayes | [View](./11_Titanic_ML_Classification) |
-| SMS Spam Detection | NLP Classification | Multinomial Naive Bayes  | [View](./10_SMS_Classification_NaiveBayes) |
-| Customer Churn Prediction | Imbalanced Classification | (Add Model Name) | [View](./14_ChurnPredection_ClassImbalance) |
-| Breast Cancer Prediction | Classification | (Add Model Name)  | [View](./15_Breast_Cancer) |
+| SMS Spam Detection | NLP Classification | Multinomial Naive Bayes | [View](./10_SMS_Classification_NaiveBayes) |
+| Decision Tree Fundamentals | Classification | Decision Tree Classifier | [View](./12_Decision_Tree) |
+| Pet Adoption Prediction | Classification | Decision Tree Classifier | [View](./13_Pet_adoption_Decision_Tree) |
+| Customer Churn Prediction | Imbalanced Classification | Random Forest Classifier | [View](./14_ChurnPredection_ClassImbalance) |
+| Breast Cancer Prediction | Classification | Logistic Regression / Decision Tree | [View](./15_Breast_Cancer) |
+| Cancer Prediction (Ensemble Learning) | Classification | Decision Tree + Random Forest | [View](./16_Cancer_Prediction_Random_Forest) |
 
 
 
