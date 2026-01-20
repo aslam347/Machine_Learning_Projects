@@ -97,8 +97,8 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
 
 ## 📌 Portfolio Projects (Quick View)
 
-| Project | Type | Algorithm | Key Metric | Link |
-|--------|------|-----------|------------|------|
+| Project | Type | Algorithm |  Link |
+|--------|------|-----------|------------|
 | Titanic Survival Prediction | Classification | Gaussian Naive Bayes | [View](./11_Titanic_ML_Classification) |
 | SMS Spam Detection | NLP Classification | Multinomial Naive Bayes  | [View](./10_SMS_Classification_NaiveBayes) |
 | Customer Churn Prediction | Imbalanced Classification | (Add Model Name) | [View](./14_ChurnPredection_ClassImbalance) |
