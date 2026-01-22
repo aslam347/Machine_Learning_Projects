@@ -154,6 +154,39 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
 - Folder: [View](./16_Cancer_Prediction_Random_Forest)
 
 
+### 17) Gradient Boosting Classification (Ensemble Learning)
+- Built a Gradient Boosting Classifier model and tuned important hyperparameters
+- Key topics:
+  - Boosting concept (sequential learning)
+  - Learning rate vs n_estimators tradeoff
+  - Model evaluation (Accuracy, Classification Report, Confusion Matrix)
+- Folder: [View](./17_ensemble_Learning_Gradient_Boosting)
+
+---
+
+### 18) Mushroom Classification using Gradient Boosting
+- Built a Gradient Boosting model to classify mushrooms (e.g., edible vs poisonous)
+- Key topics:
+  - Categorical feature encoding
+  - Gradient Boosting for classification
+  - Hyperparameter tuning
+  - Evaluation: Accuracy, Confusion Matrix, Classification Report
+- Folder: [View](./18_mushroom_classification_Gradient_boosting)
+- Dataset: Not included due to licensing restrictions (download from original source link inside the folder)
+
+---
+
+### 19) Titanic Survival Prediction using Random Forest
+- Built a Random Forest Classifier to predict Titanic passenger survival
+- Key topics:
+  - Bagging concept
+  - Random Forest training (multiple trees)
+  - Hyperparameter tuning (`n_estimators`, `max_depth`, etc.)
+  - Evaluation: Accuracy, Confusion Matrix, Classification Report
+- Folder: [View](./19_random_forest_titanic_survival)
+- Dataset: Not included due to licensing restrictions (download from original source link inside the folder)
+
+
 
 
 ---
@@ -162,8 +195,6 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
 
 
 ## 📌 Portfolio Projects (Quick View)
-
-|## 📌 Portfolio Projects (Quick View)
 
 | Project | Type | Algorithm | Link |
 |--------|------|-----------|------|
@@ -174,6 +205,9 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
 | Customer Churn Prediction | Imbalanced Classification | Random Forest Classifier | [View](./14_ChurnPredection_ClassImbalance) |
 | Breast Cancer Prediction | Classification | Logistic Regression / Decision Tree | [View](./15_Breast_Cancer) |
 | Cancer Prediction (Ensemble Learning) | Classification | Decision Tree + Random Forest | [View](./16_Cancer_Prediction_Random_Forest) |
+| Gradient Boosting Fundamentals | Classification | Gradient Boosting Classifier | [View](./17_ensemble_Learning_Gradient_Boosting) |
+| Mushroom Classification | Classification | Gradient Boosting Classifier | [View](./18_mushroom_classification_Gradient_boosting) |
+| Titanic Survival (Ensemble) | Classification | Random Forest Classifier | [View](./19_random_forest_titanic_survival) |
 
 
 
@@ -189,6 +223,12 @@ Each folder includes notebooks/scripts with step-by-step implementation, preproc
 - Jupyter Notebook
 
 ---
+
+## 📂 Dataset Notice
+Some datasets are not included in this repository due to licensing and redistribution restrictions.
+Please download datasets separately and place them inside the respective project folders before running the code.
+
+
 
 ## 🚀 How to Run (Local Setup)
 
